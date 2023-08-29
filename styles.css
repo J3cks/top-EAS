@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Common Pixel', sans-serif;
+    color: #CD9641;
+}
+
+#header-title {
+    text-align: center;
+    padding: 50px;
+}
+
+#main {
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #E4B361;
+    height: 60vh;
+    width: 20vh;
+}
+
+#menu-items {
+    height: 40vh;
+    width: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu-items button {
+    font-size: 16px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #CD9641;
+}
+
+#menu-items button:hover {
+    transform: scale(1.15);
+}
+
+#color-picked {
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid #CD9641;
+}
+
+#color-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#box-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#box-selection input {
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #CD9641;
+}
+
+#box-selection input:hover {
+    transform: scale(1.15);
+}
+
+#sketch-box {
+    width: 75%;
+    height: 75%;
+    border: 1px solid #E4B361;
+}
+
+#credits {
+    padding-top: 10px;
+    text-align: center;
+}

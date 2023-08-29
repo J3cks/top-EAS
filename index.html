@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+</head>
+<body>
+   <header> 
+    <h1 id="header-title">Etch-A-Sketch</h1>
+   </header>
+
+   <main id="main">
+        <section id="menu">
+            <div id="menu-items">
+                <div id="color-picker">
+                    <div><button id="color-mode">Pick Color</button></div>
+                    <div><input type="color" id="color-picked" name="color-pick"></div>
+                </div>
+                <div id="rainbow-mode">
+                    <button id="rainbow-btn">Random Color</button>
+                </div>
+                <div id="erase">
+                    <button id="eraser-mode">Eraser</button>
+                </div>
+                <div id="clear">
+                    <button id="clear-mode">Clear All</button>
+                </div>
+            </div>
+            <div id="box-selection">
+                <div><h3>Type Desired Box Size</h3></div>
+                <div>
+                    <input type="number" id="box-number" min="1" max="64">
+                    <input type="submit" value="Enter">
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="sketch-box">
+            
+        </section>
+   </main>
+
+   <footer>
+    <h3 id="credits">Copyright 2023 <a href="https://github.com/J3cks/top-EAS" target="_blank">Jecks</a></h3>
+   </footer>
+
+    
+
+<script src="./script.js"></script>    
+</body>
+</html>
