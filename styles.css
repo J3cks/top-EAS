@@ -15,8 +15,9 @@
     height: 80vh;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 #menu {
@@ -47,7 +48,7 @@
 }
 
 #menu-items button:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 #color-picked {
@@ -84,13 +85,38 @@
     transform: scale(1.15);
 }
 
+.btn-box {
+    padding: 5px;
+    border: 1px solid #E4B361;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
 #sketch-box {
-    width: 75%;
-    height: 75%;
+    width: 600px;
+    height: 600px;
     border: 1px solid #E4B361;
 }
 
 #credits {
     padding-top: 10px;
     text-align: center;
+}
+
+
+/* for created divs */
+#divs-container {
+    width: 600px;
+    height: 600px;
+    display: grid;
+}
+
+
+.divs {
+    padding-top: 100%;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #E3E3E3;
 }

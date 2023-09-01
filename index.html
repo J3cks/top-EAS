@@ -14,10 +14,17 @@
 
    <main id="main">
         <section id="menu">
+            <div id="box-selection">
+                <div><h3>Type Desired Box Size</h3></div>
+                <div>
+                    <input type="number" id="box-number" min="1" max="64">
+                    <input type="submit" value="Enter" id="box-submit" class="btn-box">
+                </div>
+            </div>
             <div id="menu-items">
                 <div id="color-picker">
-                    <div><button id="color-mode">Pick Color</button></div>
                     <div><input type="color" id="color-picked" name="color-pick"></div>
+                    <div><button id="color-mode">Pick Color</button></div>
                 </div>
                 <div id="rainbow-mode">
                     <button id="rainbow-btn">Random Color</button>
@@ -29,27 +36,18 @@
                     <button id="clear-mode">Clear All</button>
                 </div>
             </div>
-            <div id="box-selection">
-                <div><h3>Type Desired Box Size</h3></div>
-                <div>
-                    <input type="number" id="box-number" min="1" max="64">
-                    <input type="submit" value="Enter">
-                </div>
-                
-            </div>
         </section>
 
         <section id="sketch-box">
-            
+            <div id="divs-container">
+
+            </div>     
         </section>
    </main>
 
    <footer>
     <h3 id="credits">Copyright 2023 <a href="https://github.com/J3cks/top-EAS" target="_blank">Jecks</a></h3>
    </footer>
-
-    
-
 <script src="./script.js"></script>    
 </body>
 </html>
