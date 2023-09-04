@@ -105,6 +105,13 @@
     text-align: center;
 }
 
+footer h3:hover{
+    transform: scale(1.05);
+}
+
+
+
+
 
 /* for created divs */
 #divs-container {
